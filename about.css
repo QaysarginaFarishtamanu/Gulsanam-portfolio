@@ -211,7 +211,7 @@
 
   .hero-rasm2 {
     display: flex;
-    width: 100%;
+    width: 100%;background-color: green;
   }
   .hero-dick {
     display: none;
@@ -219,6 +219,8 @@
   .hero-btn2{
 font-size: 14px;
 line-height: 14px;
+display: flex;
+width: 100%;
 
   }
 }
