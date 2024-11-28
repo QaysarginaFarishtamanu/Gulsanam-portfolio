@@ -238,10 +238,10 @@
   color: white;
   text-transform: uppercase;
   text-wrap: nowrap;
-  width: 600px;
+  max-width: 600px;
 }
 .figma-div {
-  width: 50%;
+  max-width:  50%;
   margin-left: auto;
 }
 
@@ -281,6 +281,7 @@
   }
   .figma-div{
     margin-left: 0;
+    max-width: 100%;
   }
   .figma-title{
 font-size: 43px;
@@ -320,7 +321,7 @@ margin-bottom: 24px;
 }
 .present-list {
   margin-left: auto;
-  width: 600px;
+  max-width: 600px;
 }
 .present-div {
   display: flex;
@@ -369,6 +370,7 @@ margin-bottom: 24px;
   }
   .present-list {
     margin-left: 0;
+    max-width: 100%;
   }
   .present-title {
     font-size: 43px;
